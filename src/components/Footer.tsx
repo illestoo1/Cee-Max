@@ -14,7 +14,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3 mb-6">
             <Image
-              src="../public/image/logo.png"
+              src="/image/logo.png"
               alt="CEE-MAX"
               width={40}
               height={40}
