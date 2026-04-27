@@ -20,12 +20,12 @@ const highlights = [
   },
 ];
 
-const current = ["Premium Screening Paints", "Industrial Coatings"];
+const current = ["Screeding Paint", "Screeding Putty"];
 const coming = [
-  "Satin & Matt Finishes",
-  "Silk Finish Paints",
-  "Gravitex Coatings",
-  "Specialized Industrial Glues",
+  "Satin Paint",
+  "Matt & Silk Paint",
+  "Gravitex Paint",
+  "Industrial Glues",
 ];
 
 export default function About() {

@@ -12,38 +12,38 @@ interface Product {
 const products: Product[] = [
   {
     icon: "🎨",
-    name: "Screening Paints",
-    desc: "Our flagship product. Premium-grade screening paints engineered for professional and industrial applications with consistent, reliable coverage.",
+    name: "Screeding Paint",
+    desc: "Our flagship product. Premium-grade screeding paint engineered for professional and industrial applications with consistent, reliable coverage.",
     active: true,
   },
   {
-    icon: "🏭",
-    name: "Industrial Coatings",
-    desc: "High-performance coatings designed for durability in demanding industrial environments. Resistance to weather, abrasion, and chemical exposure.",
+    icon: "🏗️",
+    name: "Screeding Putty",
+    desc: "High-quality screeding putty designed for surface preparation and finishing. Ensures a smooth, even base for superior paint adhesion.",
     active: true,
   },
   {
     icon: "✨",
-    name: "Satin & Matt",
-    desc: "Premium satin and matt finish paints for professional interior and exterior applications.",
+    name: "Satin Paint",
+    desc: "Premium satin finish paint with a soft sheen, ideal for professional interior and exterior applications.",
     active: false,
   },
   {
     icon: "💫",
-    name: "Silk Finish",
-    desc: "Smooth, elegant silk finish paints for luxury residential and commercial spaces.",
+    name: "Matt & Silk Paint",
+    desc: "Smooth matt and elegant silk finish paints — two premium looks, one trusted manufacturer.",
     active: false,
   },
   {
     icon: "🛡️",
-    name: "Gravitex",
-    desc: "Heavy-duty surface protection coatings engineered for maximum durability.",
+    name: "Gravitex Paint",
+    desc: "Heavy-duty textured surface protection coating engineered for maximum durability and weather resistance.",
     active: false,
   },
   {
     icon: "🔩",
     name: "Industrial Glues",
-    desc: "High-strength industrial adhesive solutions for demanding bonding applications.",
+    desc: "High-strength industrial adhesive solutions for demanding bonding applications across construction and manufacturing.",
     active: false,
   },
 ];
@@ -81,12 +81,7 @@ export default function Products() {
         </a>
       </div>
 
-      {/* 
-        Bordered grid technique for Tailwind v4:
-        Container: border-l + border-t
-        Each cell:  border-r + border-b
-        Result: every grid line appears exactly once — no double borders.
-      */}
+      {/* Bordered grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-l border-t border-cborder">
         {products.map((p, i) => (
           <motion.div

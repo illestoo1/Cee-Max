@@ -10,12 +10,12 @@ const contactInfo = [
     icon: "📍",
     label: "Address",
     value:
-      "No. 250, Bauchi Road\nAdjacent Jevicho Filling Station\nJos North, Plateau State, Nigeria",
+      "No. 30, Jos Jarawa District\nAdjacent Jevicho Filling Station\nJos North, Plateau State, Nigeria",
   },
   {
     icon: "📞",
     label: "Phone",
-    value: "07026672259",
+    value: "07026672259 / 08147638115",
     href: "tel:+2347026672259",
   },
   {
@@ -32,11 +32,11 @@ const contactInfo = [
 ];
 
 const products = [
-  "Screening Paints",
-  "Industrial Coatings",
-  "Satin / Matt Finish (Coming Soon)",
-  "Silk Finish (Coming Soon)",
-  "Gravitex Coatings (Coming Soon)",
+  "Screeding Paint",
+  "Screeding Putty",
+  "Satin Paint (Coming Soon)",
+  "Matt & Silk Paint (Coming Soon)",
+  "Gravitex Paint (Coming Soon)",
   "Industrial Glues (Coming Soon)",
   "Multiple Products / General Enquiry",
 ];
