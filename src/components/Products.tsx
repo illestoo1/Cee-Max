@@ -29,9 +29,15 @@ const products: Product[] = [
     active: false,
   },
   {
+    icon: "🖤",
+    name: "Matt Paint",
+    desc: "Smooth, non-reflective matt finish paint for a clean, modern look on interior and exterior surfaces.",
+    active: false,
+  },
+  {
     icon: "💫",
-    name: "Matt & Silk Paint",
-    desc: "Smooth matt and elegant silk finish paints — two premium looks, one trusted manufacturer.",
+    name: "Silk Paint",
+    desc: "Elegant silk finish paint with a subtle lustre — durable, washable, and beautifully smooth.",
     active: false,
   },
   {
@@ -117,7 +123,7 @@ export default function Products() {
             </div>
 
             <div className={!p.active ? "opacity-40" : ""}>
-              <p className="font-condensed text-sm font-bold tracking-[0.1em] uppercase text-cwhite mb-2">
+              <p className="font-condensed text-sm font-bold tracking-widest uppercase text-cwhite mb-2">
                 {p.name}
               </p>
               <p className="text-xs text-cmuted leading-6">{p.desc}</p>
