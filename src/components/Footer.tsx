@@ -14,7 +14,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3 mb-6">
             <Image
-              src="/logo.png"
+              src="../public/image/logo.png"
               alt="CEE-MAX"
               width={40}
               height={40}
@@ -30,7 +30,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <p className="text-xs text-cmuted leading-7 max-w-[260px]">
+          <p className="text-xs text-cmuted leading-7 max-w-65">
             Leading producer of high-quality screening paints and industrial
             coatings. Based in Jos, Nigeria.
           </p>
@@ -69,7 +69,7 @@ export default function Footer() {
             Chat With Us
           </p>
           <WhatsAppQR size={100} />
-          <p className="mt-4 text-xs text-cmuted leading-6 max-w-[180px]">
+          <p className="mt-4 text-xs text-cmuted leading-6 max-w-45">
             Scan to start a WhatsApp conversation with our team.
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="px-6 md:px-16 py-5 flex flex-col sm:flex-row justify-between items-center gap-3 flex-wrap">
-        <span className="font-bebas text-[1.15rem] tracking-[0.1em] text-gold">
+        <span className="font-bebas text-[1.15rem] tracking-widest text-gold">
           CEE-MAX MANUFACTURING LTD
         </span>
 
