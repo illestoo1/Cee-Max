@@ -62,7 +62,7 @@ export default function Navbar() {
                   className="relative text-xs tracking-widest uppercase text-gray-300 hover:text-yellow-400 transition"
                 >
                   {link}
-                  <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-yellow-400 transition-all duration-300 group-hover:w-full" />
+                  <span className="absolute left-0 -bottom-1 w-0 h-px bg-yellow-400 transition-all duration-300 group-hover:w-full" />
                 </a>
               </li>
             ))}
@@ -82,17 +82,17 @@ export default function Navbar() {
             className="md:hidden z-50 flex flex-col gap-1.5"
           >
             <span
-              className={`block h-[2px] w-6 bg-white transition ${
+              className={`block h-0.5 w-6 bg-white transition ${
                 menuOpen ? "rotate-45 translate-y-2" : ""
               }`}
             />
             <span
-              className={`block h-[2px] w-5 bg-yellow-400 transition ${
+              className={`block h-0.5 w-5 bg-yellow-400 transition ${
                 menuOpen ? "opacity-0" : ""
               }`}
             />
             <span
-              className={`block h-[2px] w-6 bg-white transition ${
+              className={`block h-0.5 w-6 bg-white transition ${
                 menuOpen ? "-rotate-45 -translate-y-2" : ""
               }`}
             />
